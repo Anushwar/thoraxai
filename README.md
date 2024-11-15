@@ -148,29 +148,8 @@ transform = transforms.Compose([
 
 You can adjust training parameters either through command line arguments or by modifying the defaults in `config.py`.
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Acknowledgments
-
-- NIH for providing the ChestXray14 dataset
-- timm library for model implementations
-- PyTorch team for the deep learning framework
-
 ## References
 
 1. NIH ChestXray14 Dataset: [Wang et al. 2017](https://arxiv.org/abs/1705.02315)
 2. ConvNext Paper: [Liu et al. 2022](https://arxiv.org/abs/2201.03545)
 3. timm Library: [Ross Wightman](https://github.com/huggingface/pytorch-image-models)
-
-This README provides comprehensive information about:
-
-- Project overview and dataset description
-- Installation and usage instructions
-- Detailed explanation of command-line arguments
-- Model architecture options and customization
-- Training details and monitoring
-- Ways to extend and modify the implementation
-
-It serves as both documentation and a quick-start guide for users wanting to work with the project. The references section provides links to relevant papers and resources for further reading.
